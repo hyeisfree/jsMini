@@ -1,10 +1,8 @@
 let btn = document.querySelector("button");
 let color = document.getElementById("color");
-let background = document.getElementsByClassName("bg");
-
 function getRandomColor() {
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
-} // 구글링 -> Math.floor, Math.random 함수 찾아보기
+} // 구글링 -> Math.floor, Math.random 함수 공부하기!!!!
 
 /* btn.addEventListener("click", function () {
    if (color.innerText === "red") {
