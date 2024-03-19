@@ -1,7 +1,15 @@
-const button = document.getElementById("btn");
+let bgColor = [{ color: "purple" }, { color: "blue" }, { color: "yellow" }];
+let btn = document.querySelector("button");
+let color = document.getElementById("color");
 
-button.addEventListener("click", () => {
-  const color = document.getElementById("color");
-  color.innerText = "바뀌기";
-  console.log("클릭");
-});
+/* btn.addEventListener("click", function () {
+   if (color.innerText === "red") {
+     color.innerText = "purple";
+   }
+ }); */
+
+btn.addEventListener("click", () => {
+  if (color.innerText === "red") {
+    color.innerText = "purple";
+  }
+}); // 화살표 함수로 바꿔보기
