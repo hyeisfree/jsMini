@@ -1,5 +1,5 @@
 /* Math.random() -> 0 이상 1 미만의 난수 생성 
-Math.floor() -> 주어진 수 이하의 가장 큰 정수 반환*/
+Math.floor() -> 주어진 수 이하의 가장 큰 정수 반환 */
 
 function getRandom(min, max) {
   // min 이상 max 미만의 난수 생성
