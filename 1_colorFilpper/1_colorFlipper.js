@@ -1,5 +1,5 @@
 const btn = document.querySelector("button");
-const span = document.querySelector("span");
+const span = document.querySelector("span"); // DOM 객체 불러오기
 
 function randomRGB() {
   const rColor = Math.floor(Math.random() * 256);

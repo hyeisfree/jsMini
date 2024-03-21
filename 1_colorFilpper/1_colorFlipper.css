@@ -1,12 +1,6 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .div {
   /* background-color: lightcoral; */
-  width: 50vmax;
+  width: 100vmax;
   height: 50vmax;
   display: flex;
   flex-direction: column;
