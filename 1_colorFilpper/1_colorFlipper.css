@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div {
+  /* background-color: lightcoral; */
+  width: 50vmax;
+  height: 50vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  background-color: black;
+  padding: 5px;
+  padding-right: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  border-width: thin;
+  border-radius: 5px;
+}

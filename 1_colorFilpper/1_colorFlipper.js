@@ -1,16 +1,16 @@
-let btn = document.querySelector("button");
-let color = document.getElementById("color");
-function getRandomColor() {
-  return "#" + Math.floor(Math.random() * 16777215).toString(16);
-} // 구글링 -> Math.floor, Math.random 함수 공부하기!!!!
+const btn = document.querySelector("button");
+const span = document.querySelector("span");
 
-/* btn.addEventListener("click", function () {
-   if (color.innerText === "red") {
-     color.innerText = "purple";
-   }
- }); */
+function randomRGB() {
+  const rColor = Math.floor(Math.random() * 256);
+  const gColor = Math.floor(Math.random() * 256);
+  const bColor = Math.floor(Math.random() * 256);
+  return `rgb(${rColor},${gColor},${bColor})`;
+}
 
 btn.addEventListener("click", () => {
-  color.innerText = getRandomColor();
-  document.body.style.backgroundColor = getRandomColor();
-}); // 화살표 함수로 바꿈.
+  const newColor = randomRGB();
+  document.body.style.backgroundColor = newColor;
+  span.innerText = newColor;
+  btn.style.backgroundColor = newColor;
+});
