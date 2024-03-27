@@ -1,19 +1,8 @@
-let count = 0;
+const count = document.querySelector(".count_number");
+const btn_dec = document.querySelector(".btn_decrease");
+const btn_res = document.querySelector(".btn_reset");
+const btn_inc = document.querySelector(".btn_increase");
 
-const value = document.querySelector("#value");
-const btns = document.querySelectorAll(".btn");
-
-//forEach, e, e.currentTarget, e.currentTarget.classList
-btns.forEach(function (btn) {
-  btn.addEventListener("click", function (e) {
-    const styles = e.currentTarget.classList;
-    if (styles.contains("decrease")) {
-      count--;
-    } else if (styles.contains("increase")) {
-      count++;
-    } else {
-      count = 0;
-    }
-    num.textContent = count;
-  });
+btn_inc.addEventListener("click", () => {
+  let num;
 });
