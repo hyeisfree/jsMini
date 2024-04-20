@@ -1,0 +1,12 @@
+.container {
+  background-color: aquamarine;
+}
+.header {
+  text-align: center;
+}
+
+.main {
+  width: 50%;
+  height: 50%;
+  /* background-color: aquamarine; */
+}
