@@ -18,3 +18,7 @@ let user = [
     job: "풀스택 개발자",
   },
 ];
+
+function loading() {
+  window.prompt("이름이 무엇인가요?");
+}
