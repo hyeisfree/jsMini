@@ -19,6 +19,4 @@ let user = [
   },
 ];
 
-function loading() {
-  window.prompt("이름이 무엇인가요?");
-}
+userName = prompt("이름을 입력해주세요!");
