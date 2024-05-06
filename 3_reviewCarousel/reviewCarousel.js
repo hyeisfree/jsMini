@@ -7,7 +7,7 @@ const surprise = document.querySelector(".surprise");
 let userJob = [
   {
     job: "프론트엔드 개발자",
-    picture: ".",
+    picture: ".", // 버튼 클릭 시 job이랑 picture 나타나게 구현할 것.
   },
   {
     job: "백엔드 개발자",
@@ -20,4 +20,4 @@ let userJob = [
 ];
 
 let userName = prompt("이름을 입력해주세요!");
-alert("환영합니다, " + userName + "님");
+alert("환영합니다, " + userName + "님"); // 페이지 본문에 유저가 입력한 이름 나타나게 구현할 것.
