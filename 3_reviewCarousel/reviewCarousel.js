@@ -7,7 +7,7 @@ const surprise = document.querySelector(".surprise");
 let userJob = [
   {
     job: "프론트엔드 개발자",
-    picture: ".", // 버튼 클릭 시 job이랑 picture 나타나게 구현할 것. picture 찾기.
+    picture: ".", // 버튼 클릭 시 job이랑 picture 나타나게 구현할 것. picture에 넣을 사진 찾기.
   },
   {
     job: "백엔드 개발자",
@@ -21,4 +21,4 @@ let userJob = [
 
 let userName = prompt("이름을 입력해주세요!");
 alert("환영합니다, " + userName + "님");
-// surprise me 버튼 기능 생각하기.
+// surprise me 버튼 기능..
